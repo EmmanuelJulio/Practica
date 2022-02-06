@@ -9,7 +9,7 @@ namespace Practica
     public class Concecionaria
     {
         public List<Auto> autos = new List<Auto>(); 
-        public string NombreConcecionaria { get; private set; }
+        public string NombreConcecionaria  { get; private set; }
         public Concecionaria(List<Auto> autos,string nombreConcecionaria)
         {
             this.autos = autos;
